@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Libreton</title>
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="assets/img/LogoLibreton.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <img data-src="assets/img/LogoLibreton.png" alt="logo" width="200px" height="100px">
+                    
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="#Acerca">Acerca de nosotros</a>
+                    <a href="#Generos">Generos</a>
+                    <a href="#Direccion">Direccion</a>
+                    <a href="mailto:LibreriaLibreton@hotmail.com">Contacto</a>
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <h2>Venta de libros Libreton!</h2>
+                    <a href="#Generos" class="btn bordes">Comprar ahora</a>
+                </div>
+                <video autoplay loop muted>
+                    <source src="assets/bg_video.mp4" height="400px">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor">
+        <div class="texto-nosotros" id="Acerca">
+            <p class="bienvenida">Bienvenido a!</p>
+            <h1>Libreton</h1>
+            <h3>"Has tu vida simple, leyendo solo un libro"
+            </h3>
+            <h2>Visión</h2>
+            <p>En esta pagina web podran encontrar un espacio moderno, agradable y accesible, orientado a nuevos usuarios para la gestion
+                y transmision del conocimiento, donde las nuevas tecnologias esten al alcance de todos, con una gestion eficaz, dinamica y eficiente.
+            </p>
+
+            <h2>Misión</h2>
+            <p>Llenar a los clientes de una gran gama de productos y servicios, ofreciendo al mayor surtido de libros a un costo muy bajo, satisfaciendo
+                las necesidades de la comunidad y fomentando el amor a la lectura en el publico general.
+            </p>
+
+        </div>
+        <div class="imagenes-nosotros">
+            <div class="imagenes2">
+                <img data-src="assets/img/libro2.webp" alt="libro 2">
+                <img data-src="assets/img/libro4.webp" alt="libro 4">
+            </div>
+        </div>
+    </div>
+
+    <section class="menu contenedor">
+        <h2 class="texto-platillos">Generos mas populares</h2>
+        <div class="botones-platillos" id="Generos">
+            <button class="todos btn btn-verde">Todos</button>
+            <button class="ensaladas btn btn-verde">Romance</button>
+            <button class="pasta btn btn-verde">Cienca Ficcion</button>
+            <button class="pizza btn btn-verde">Infantiles</button>
+            <button class="postres btn btn-verde">Educativos</button>
+            
+        </div>
+        <div class="platillos">
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/1.jpeg" alt="ensalada">
+                <h2>El amor en los tiempos del colera</h2>
+                <p>Un amor que tendrá que enfrentarse al tiempo pero que no morirá. Gabriel García Márquez cuenta, con la misma maestría que en otras obras, como se conocen Fermina y Florentino, como se separan y como se vuelven a unir</p>
+                <div class="precio">
+                    <p>$250.00</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/2.jpeg" alt="ensalada">
+                <h2>Bajo la misma estrella</h2>
+                <p>Hazel tiene dieciséis años, está enferma de cáncer desde pequeña y sobrevive gracias a un pequeño milagro médico y a la bombona de oxígeno que la acompaña todo el tiempo.</p>
+                <div class="precio">
+                    <p>$180.00</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/3.jpg" alt="ensalada">
+                <h2>Los dioses tambien aman</h2>
+                <p>Una chica tímida perdida en el pasado. Un joven dios decidido a conquistarla.</p>
+                <div class="precio">
+                    <p>$220.00</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/4.jpeg" alt="pasta">
+                <h2>El marciano</h2>
+                <p>La tripulación de la nave en que viajaba se ve obligada a evacuar el planeta a causa de una tormenta de polvo, dejando atrás a Mark tras darlo por muerto.</p>
+                <div class="precio">
+                    <p>$200.00</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/5.jpeg" alt="pasta">
+                <h2>Ciudad sin estrellas</h2>
+                <p>Un atardecer, a la hora entreluz, mientras se dirige con sus amigos al burdel de lujo más afamado de la metrópoli, Perseo Stone tomará una decisión.</p>
+                <div class="precio">
+                    <p>$180.00</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/6.jpeg" alt="pasta">
+                <h2>La teoria del todo</h2>
+                <p>La Teoría del Todo es un libro de divulgación por Stephen Hawking sobre los conceptos como el espacio, el tiempo, los agujeros negros,los planetas, las estrellas de forma que cualquiera de nosotros lo pueda entender.</p>
+                <div class="precio">
+                    <p>$195.00</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/10.jpeg" alt="pizza">
+                <h2>Cuentos Infantiles</h2>
+                <p>Este libro presenta una serie de hermosos cuentos para sus hijos pensado en enseñarles de manera sutil los valores y la importancia de ser buenos niños.</p>
+                <div class="precio">
+                    <p>$200.00</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/11.jpeg" alt="pizza">
+                <h2>Alicia y el cerebro maravilloso</h2>
+                <p>La neurocientífica, Nazareth Castellanos, explica a los más pequeños en este maravilloso cuento ilustrado cómo funciona el cerebro y cómo cuidarlo para hacerlo crecer.</p>
+                <div class="precio">
+                    <p>$220.00</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/12.jpeg" alt="pizza">
+                <h2>El gato garabato</h2>
+                <p>Es un día frío, lluvioso y muy aburrido: Sally y su hermano se han quedado solos en casa y no se les ocurre nada que hacer. Están mirando melancólicamente por la ventana cuando, de pronto, oyen un estruendoso... ¡BUM!</p>
+                <div class="precio">
+                    <p>$185.00</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/7.jpeg" alt="postre">
+                <h2>El cerebro infantil y adolescente</h2>
+                <p>Comprender cada detalle del sistema nervioso, desde los elementos más básicos como las neuronas y los neurotransmisores hasta los más generales como los hemisferios, los lóbulos cerebrales y la corteza prefrontal, es fundamental para padres y maestros.</p>
+                <div class="precio">
+                    <p>$190.00</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/8.jpeg" alt="postre">
+                <h2>Neuroeducacion</h2>
+                <p>Neuroeducación es un marco en el que colocar los conocimientos del cerebro y la forma como la persona interactúa con el medio que le rodea en su vertiente específica de la enseñanza y el aprendizaje.</p>
+                <div class="precio">
+                    <p>$300.00</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/9.jpeg" alt="postre">
+                <h2>Aprendiendo a aprender</h2>
+                <p>Un manual práctico que sintetiza, de forma sencilla y amena, cómo aprende el cerebro y que puedes hacer para desarrollar.</p>
+                <div class="precio">
+                    <p>$175.00</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separador">
+        <div class="contenido-separador contenedor">
+            <h2>Importancia de leér.</h2>
+            <p>Cuando lees aprendes palabras nuevas ampliando tu vocabulario, también mejoras tú gramática, 
+                ortografía y ejercitas tu cerebro quien se mantiene activo. Una persona con hábitos de lectura es alguien que
+                 puede adquirir habilidades verbales con mucha facilidad, que combinado con la rapidez mental</p>
+        </div>
+    </div>
+
+    <section class="chef contenedor">
+        <h2>Te mereces un libro hermoso, como tú.</h2>
+        <div class="contenido-chef">
+            <div class="texto-chef">
+                <h3>Mensajes que nos a brindado la literatura
+                </h3>
+                <p>"Si buscas la perfección nunca estarás contento."
+                    <br>(Anna Karenina, Leo Tolstoy)</br></p>
+                <p></p>
+                <p>"-Alicia: ¿Cuánto tiempo es para siempre? <br>-Conejo blanco: A veces solo un segundo." 
+                    <br>(Alicia en el País de las Maravillas, Lewis Carroll)</p>
+
+                <p>"Hay gente que, cuanto más haces por ellos, menos hacen por sí mismos." <br>(Emma, Jane Austen)</p>
+
+            </div>
+        
+               <rigth><img data-src="assets/img/libro5.png" width="400px" height="400px" alt="libro 1"></rigth>
+            
+        </div>
+    </section>
+
+    <div class="formulario-contacto contenedor">
+
+        <div class="informacion-contacto" id="Direccion">
+            <h3>Contactanos</h3>
+            <p><i class="fas fa-map-marker-alt"></i>Av. Paseo de la Reforma 300, Cuauhtémoc, 06600 Ciudad de México, CDMX.</p>
+            <p><i class="fas fa-envelope"></i> LibreriaLibreton@hotmail.com</p>
+            <p><i class="fas fa-phone-alt"></i>+52 55-73-35-45-17</p>
+            <div class="redes-sociales">
+                <a href="https://www.facebook.com/people/Libreria-Libreton/100087874569352/?is_tour_dismissed=true">
+                    <img data-src="assets/img/Face.png" border= "0" width="40px" height="40px"></a>
+                <a href="https://www.instagram.com/librerialibreton/">
+                    <img data-src="assets/img/InstagramLogo.png" border= "0" width="40px" height="40px"></a>
+                    <a href="https://api.whatsapp.com/send/?phone=525573354517&text=Libreria+Libreton&type=phone_number&app_absent=0">
+                        <img data-src="assets/img/logows.webp" border= "0" width="40px" height="40px"></a>
+            </div>           
+            <a href="https://api.whatsapp.com/send/?phone=525573354517&text=Libreria+Libreton&type=phone_number&app_absent=0">
+                <img data-src="assets/img/whaqr.png" border= "0" width="150px" height="150px"></a>
+        </div>
+
+        <form id="form"  action="https://formsubmit.co/LibreriaLibreton@hotmail.com" method="post" class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">Nombre</label>
+                <input name="nombre" type="text" placeholder="Pedro" id="nombre">
+            </div>
+            <div class="input-formulario">
+                <label for="apellidos">Apellido</label>
+                <input name="apellido" type="text" placeholder="Campos" id="apellidos">
+            </div>
+            <div class="input-formulario">
+                <label for="correo">Correo</label>
+                <input name="email" type="email" placeholder="ejemplo@ejemplo.com" id="correo">
+            </div>
+            <div class="input-formulario">
+                <label for="telefono">Teléfono</label>
+                <input name="tele" type="tel" placeholder="+90 543 779 9410" id="telefono">
+            </div>
+            <div class="input-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="btn-formulario">
+                <input type="submit" class="btn btn-verde" value="Enviar">
+
+            </div>            
+        </form>
+
+    </div>
+    <div class="pie-pagina ">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>Dirección</h3>
+                <p>Av. Paseo de la Reforma 300, Cuauhtémoc, 06600 Ciudad de México, CDMX.</p>
+            </div>
+            <div class="info">
+                <h3>Días especiales</h3>
+                <p>Sabados y Jueves 7am - 11pm</p>
+                <p>+525573354517</p>
+            </div>
+            <div class="info">
+                <h3>Horarios</h3>
+                <p>Lunes - Domingo 7am - 11pm</p>
+            </div>
+            <div class="info">
+                <h3>Noticias</h3>
+                <p>suscribete para recibir más noticias</p>
+                <input type="email" placeholder="Tu correo">
+                <script>
+                   function saludo(){
+                    window.alert('Suscripcion activa')
+                   }
+                </script>
+                <input type="button" onclick="saludo()" class="btn btn-verde" value="Suscribirse">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy; 2022 LibreriaLibreton, desarrollado por WEB.EZ</p>
+    </footer>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
